@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>ADS-352 2rulee Sitesi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        :root {
+            --primary: #2d3e50;
+            --accent: #4fc3f7;
+            --bg: #f4f6f8;
+            --text: #333;
+            --card: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Tahoma, sans-serif;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), #1b2735);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        nav {
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav li {
+            margin: 0 15px;
+        }
+
+        nav a {
+            display: block;
+            padding: 15px;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: var(--accent);
+        }
+
+        section {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+
+        .card {
+            background: var(--card);
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            margin-bottom: 25px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .skill {
+            background: #eef3f7;
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        footer {
+            background: #1b2735;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+            margin: 0 8px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Mehmet Tuğrul Kocaeli</h1>
+    <p>Fizikçi</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#hakkimda">Hakkımda</a></li>
+        <li><a href="#beceriler">Beceriler</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+    </ul>
+</nav>
+
+<section id="hakkimda">
+    <h2>Hakkımda</h2>
+    <div class="card">
+        <p>
+            Bu site ADS-352 Açık Kaynak Yazılım Geliştirme dersi için oluştuurulmuştur.
+        </p>
+    </div>
+</section>
+
+<section id="beceriler">
+    <h2>Beceriler</h2>
+    <div class="skills">
+        <div class="skill">HTML & CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Python</div>
+        <div class="skill">Problem Çözme</div>
+        <div class="skill">Analitik Düşünme</div>
+        <div class="skill">Takım Çalışması</div>
+    </div>
+</section>
+
+<section id="iletisim">
+    <h2>İletişim</h2>
+    <div class="card">
+        <p>Email: <strong>tgrlkcl67@gmail.com</strong></p>
+        <p>LinkedIn / GitHub / Instagram bağlantılarını buraya ekleyebilirsin.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 - Mehmet Tuğrul Kocaeli</p>
+    <p>
+        <a href="#">LinkedIn</a> |
+        <a href="#">GitHub</a> |
+        <a href="#">Instagram</a>
+    </p>
+</footer>
+
+</body>
+</html>
