@@ -1,2 +1,2 @@
-# 2rulee.github.io
-2rulee Hompage
+# ADS-352 Dersi
+Ders için oluşturulmuş repository
